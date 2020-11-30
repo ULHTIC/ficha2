@@ -2,28 +2,7 @@
 
 *Introdução à Computação*
 
-# Ficha de Exercícios - 1
-
-Na resolução destes exercícios deve ser utilizada a Linguagem de Programação C. Para além da correta implementação dos requisitos, tenha em conta os seguintes aspetos:
-
-- O código apresentado deve ser bem indentado. 
-
-- O código deve compilar sem erros ou *warnings* utilizando o *gcc* com as seguintes flags:
-
-- `gcc -Wall -Wextra -Wpedantic -g exercicio1.c -o exercicio1`
-
-- Tenha em atenção os nomes dados das variáveis, para que sejam indicadores daquilo que as mesmas vão conter.
-
-- Evite o uso de constantes mágicas. 
-
-- Evite duplicação de código. 
-
-- Considere a implementação de funções para melhorar a legibilidade, evitar a duplicação e criar soluções mais genéricas.
-
-- Deve usar a função `printf` e `scanf` para resolver exercícios.
-
-
-
+# Ficha de Exercícios - 2 - Solução
 
 1. Implemente um programa que escreve no ecrã a frase "O primeiro programa nunca se esquece!".
 
@@ -256,7 +235,7 @@ void ex12(void){
 }
    ```
 
-11. A importância de €780.000,00 será dividida entre três vencedores de um concurso. Sendo que da quantia total:
+13. A importância de €780.000,00 será dividida entre três vencedores de um concurso. Sendo que da quantia total:
 
     - O primeiro vencedor receberá 46%
 
@@ -285,6 +264,38 @@ void ex13 (void){
    ```
 
  
+14. Implemente um programa que pede ao utilizador um número inteiro (4 bytes). Em seguida imprime esse número em base hexadecimal (com 8 dígitos)  e octal  (com 11 dígitos). Imprime também, o simétrico do número em base decimal, hexadecimal (com 8 dígitos) e octal (com 11 dígitos). Exemplo
+```
+Insira um numero inteiro
+5
+Hex: 0x00000005
+Oct: O00000000005
+Inv Dec: -5
+Inv Hex: 0xFFFFFFFB
+Inv Oct: O37777777773
+```
+
+   *Resolução:*
+
+   ```c
+#include <stdio.h>
+
+int main(void) {
+	int a;
+	printf("Insira um numero inteiro\n");
+
+	while(scanf("%d", &a) != 1));
+
+	printf("Hex: 0x%08X\n", a);
+	printf("Oct: O%011o\n", a);
+	printf("Inv Dec: %d\n", -a);
+	printf("Inv Hex: 0x%08X\n", -a);
+	printf("Inv Oct: O%011o\n", -a);
+
+	return 0;
+}
+   ```
+
 
 *Função main que chama todas as funções definidas:*
 
