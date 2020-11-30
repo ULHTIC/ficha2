@@ -315,7 +315,6 @@ void ex10 (void);
 void ex11 (void);
 void ex12 (void);
 void ex13 (void);
-void ex14 (void);
 
 int main (void)
 {
@@ -332,7 +331,6 @@ int main (void)
 	ex11();
 	ex12();
 	ex13();
-	ex14();
 	return 0;
 }
    ```
