@@ -75,7 +75,7 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
 
      *Exemplo: 228184 segundos correspondem a 2 Dias e 15 Horas 23 Minutos e 4 Segundos.*
 
-11. A importância de €780.000,00 será dividida entre três vencedores de um concurso. Sendo que da quantia total:
+13. A importância de €780.000,00 será dividida entre três vencedores de um concurso. Sendo que da quantia total:
 
     - O primeiro vencedor receberá 46%
 
@@ -87,7 +87,7 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
     
     
 
-12. Implemente um programa que pede ao utilizador um número inteiro (4 bytes). Em seguida imprime esse número em base hexadecimal (com 8 dígitos)  e octal  (com 11 dígitos). Imprime também, o simétrico do número em base decimal, hexadecimal (com 8 dígitos) e octal (com 11 dígitos). Exemplo
+14. Implemente um programa que pede ao utilizador um número inteiro (4 bytes). Em seguida imprime esse número em base hexadecimal (com 8 dígitos)  e octal  (com 11 dígitos). Imprime também, o simétrico do número em base decimal, hexadecimal (com 8 dígitos) e octal (com 11 dígitos). Exemplo
 ```
 Insira um numero inteiro
 5
