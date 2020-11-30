@@ -1,6 +1,6 @@
 **UNIVERSIDADE LUSÓFONA DE HUMANIDADES E TECNOLOGIAS**
 
-*Introdução à Computação - 2020/2021*
+*Introdução à Computação*
 
 # Ficha de Exercícios - 1
 
